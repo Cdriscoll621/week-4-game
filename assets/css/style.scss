@@ -1,0 +1,50 @@
+$mainColor: #BDD39C;
+$font: 'Patrick Hand', cursive;
+$pink: pink;
+$purp: #DDDDFF;
+
+
+
+
+.imgContainer {
+	display: flex;
+	justify-content: center;
+
+}
+
+
+body {
+	background-color: $mainColor; 
+	font-family: $font;
+	font-weight: bold;
+}
+
+.buttonImg {
+	width: 100px;
+	height: 100px; 
+}
+
+.randomBox {
+	width: 200px;
+	border: 2px solid gray;
+	margin: auto;
+
+}
+
+.header {
+	width: 50%;
+	border: 2px solid $pink;
+	margin: auto;
+	text-align: center;
+	background-color: $pink;
+	border-radius: 20px;
+}
+
+.container {
+	border-radius: 20px;
+	padding: 20px;
+	width: 50%;
+	margin: auto;
+	background-color: $purp;
+
+}
