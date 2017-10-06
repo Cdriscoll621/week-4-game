@@ -1,4 +1,4 @@
-$mainColor: #BDD39C;
+$mainColor: #ADD1E9;
 $font: 'Patrick Hand', cursive;
 $pink: pink;
 $purp: #DDDDFF;
@@ -9,12 +9,19 @@ $purp: #DDDDFF;
 .imgContainer {
 	display: flex;
 	justify-content: center;
+	justify-content: space-around;
 
+}
+
+.lrgImg {
+	width: 200px;
+	length: 200px;
 }
 
 
 body {
-	background-color: $mainColor; 
+
+    background-color: $mainColor; 
 	font-family: $font;
 	font-weight: bold;
 }

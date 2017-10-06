@@ -1,9 +1,14 @@
 .imgContainer {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  justify-content: space-around; }
+
+.lrgImg {
+  width: 200px;
+  length: 200px; }
 
 body {
-  background-color: #BDD39C;
+  background-color: #ADD1E9;
   font-family: "Patrick Hand", cursive;
   font-weight: bold; }
 
